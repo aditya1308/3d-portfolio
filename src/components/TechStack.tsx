@@ -13,16 +13,16 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/spark.png",
-  "/images/java.png",
-  "/images/azure-cloud.png",
-  "/images/c++.svg",
-  "/images/eventhub.png",
-  "/images/git.png",
-  "/images/postgresql.jpg",
-  "/images/Python.png",
-  "/images/spark.png",
-  "/images/sp.png",
+  "images/spark.png",
+  "images/java.png",
+  "images/azure-cloud.png",
+  "images/c++.svg",
+  "images/eventhub.png",
+  "images/git.png",
+  "images/postgresql.jpg",
+  "images/Python.png",
+  "images/spark.png",
+  "images/sp.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
