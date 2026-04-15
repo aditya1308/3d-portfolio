@@ -60,6 +60,44 @@ const WhatIDo = () => {
           </div>
           <div
             className="what-content what-noTouch"
+            ref={(el) => setRef(el, 1)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>BUILD &amp; SCALE</h3>
+              <h4>Shipping Industry level Software in Production</h4>
+              <p>
+                I build and develop the systems/softwares: APIs, data, and
+                full-stack products—production-ready, not slide decks.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">Java</div>
+                <div className="what-tags">Springboot</div>
+                <div className="what-tags">REST &amp; real-time APIs</div>
+                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">Azure</div>
+                <div className="what-tags">Spark</div>
+                <div className="what-tags">Cloud &amp; infra</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          <div
+            className="what-content what-noTouch"
             ref={(el) => setRef(el, 0)}
           >
             <div className="what-border1">
@@ -88,57 +126,18 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h4>Workflow Intelligence for my Organizations</h4>
               <p>
                 AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                and rermove recurring work which results in less manual work.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
+                <div className="what-tags">AI Agents &amp; agents</div>
                 <div className="what-tags">Workflow design</div>
                 <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
+                <div className="what-tags">Prompting</div>
                 <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
-              </div>
-              <div className="what-arrow"></div>
-            </div>
-          </div>
-          <div
-            className="what-content what-noTouch"
-            ref={(el) => setRef(el, 1)}
-          >
-            <div className="what-border1">
-              <svg height="100%">
-                <line
-                  x1="0"
-                  y1="100%"
-                  x2="100%"
-                  y2="100%"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeDasharray="6,6"
-                />
-              </svg>
-            </div>
-            <div className="what-corner"></div>
-            <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
-              <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
-              </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
               </div>
               <div className="what-arrow"></div>
             </div>

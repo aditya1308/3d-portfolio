@@ -15,58 +15,47 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Software Engineer</h4>
+                <h5>Societe Generale Global Solution Centre</h5>
+                <h5>Bengaluru</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024 - Present </h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Responsible for designing and creating APIs using Java Springboot for the Client Exposure Monitoring team. These APIs are used for the pushing and extracting data to and from OpenSee database.
+Implemented and reduced the latency of API for getting data of multiple Legal Entities (LE) which has about 60Mb of data per LE.
+Increased test coverage to 99% in most of the existing modules
+Implemented new push strategies which uses Kafka notification to trigger a Spark job and push millions of data after customization into OPENSEE database
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Operations Associate</h4>
+                <h5>Unacademy</h5>
+                <h5>Remote</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>Jul 2023 - Nov 2023</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              <b>Operations Associate</b> Worked in the content team for UnacademyX team for reviewing and maintaining the quality of the content which brought down the errors and typo to almost 0%
+Used figma for designing the content slides which went into the UnacademyX app
+Maintained excels sheets efficiently for timely delivery of content slides, almost 1000 slides per day.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Software Development Engineer - Intern </h4>
+                <h5>uTrade Solutions Pvt. Ltd.</h5>
+                <h5>Mohali</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2022-2023</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Worked in the development and new features of HFT(High Frequency Trading) which is being used in uTrade.
+As a C++ backend developer, responsible for developing new features and improving existing features of HFT.
+Development in frontend for uTrade Algo in QT framework, reducing latency by optimizing code also developing new features.
             </p>
           </div>
         </div>

@@ -6,11 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          Hi, I&apos;m Aditya Prasad, a 2023 graduate🎓 and a passionate Software Engineer working as a developer at Societe Genrale Global Solution Centre. 
+          Besides tech and coding, I have interests in sports, mentoring, and social work.
+          
+          My objectives are to build skills and gain experience across different avenues to become a change maker and to be enterprising and dynamic in my approach. 🖊️
+          I have also written tech articles published on the GeeksForGeeks website.
         </p>
       </div>
     </div>
